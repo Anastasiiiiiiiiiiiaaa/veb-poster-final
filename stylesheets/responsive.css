@@ -1,0 +1,62 @@
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1440px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media screen and (max-width: 414px){
+/* first display */
+  .tel{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items:center;
+    margin-top: 16%;
+}
+.star{
+  width: 30%;
+}
+  .ff{
+    color: black;
+    font-size: 6vw;
+    animation: ctrl-change 1s steps(1) infinite;
+    animation-play-state: running;
+}
+.bricks2 {
+  z-index: 2;
+  display: flex;
+  align-content: center;
+  position: relative;
+  margin-left: 1%;
+  width:200%;
+  animation: circles-move2 2s linear infinite;
+  margin-right: -60%;
+  margin-top: 62%;
+}
+.fim{
+  width: 150%;
+  position: absolute;
+  
+}
+}
